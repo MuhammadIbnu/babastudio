@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #000;
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 940px;
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#header {
+    background: url(../images/bg.jpg);
+    height: 130px;
+}
+#slider {
+    background: url(../images/bg_slider.gif);
+    height: 423px;
+}
+
+#content {
+    background: #fff;
+    min-height: 500px;
+}
+
+#footer {
+    background: #000;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 20px;
+}
